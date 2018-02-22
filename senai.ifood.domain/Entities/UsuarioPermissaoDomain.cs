@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 namespace senai.ifood.domain.Entities
 {
     public class UsuarioPermissaoDomain:BaseDomain

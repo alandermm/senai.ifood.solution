@@ -1,5 +1,6 @@
 using System;
-using System.ComponetModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace senai.ifood.domain.Entities
 {
@@ -19,7 +20,7 @@ namespace senai.ifood.domain.Entities
 
         [ForeignKey("UsuarioId")]
         public UsuarioDomain Usuario { get; set; }
-        
+
         public int UsuarioId { get; set; }
     }
 }

@@ -1,6 +1,6 @@
 using System;
-using System.ComponetModel.DataAnnotations;
-using System.ComponetModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace senai.ifood.domain.Entities
 {
